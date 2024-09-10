@@ -26,15 +26,14 @@
       }
       
       else {
-        // For non-mobile devices, set the resolution to 560px by 548px:
         canvas.style.width = "560px";
         canvas.style.height = "548px";
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Telegram-Game-Demo.data.br",
-        frameworkUrl: "Build/Telegram-Game-Demo.framework.js.br",
-        codeUrl: "Build/Telegram-Game-Demo.wasm.br",
+        dataUrl: "Build/Telegram-Game-Demo.data.gz",
+        frameworkUrl: "Build/Telegram-Game-Demo.framework.js.gz",
+        codeUrl: "Build/Telegram-Game-Demo.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Fexobit",
