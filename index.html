@@ -9,11 +9,12 @@
     <canvas id="unity-canvas" width=600 height=800 tabindex="-1" style="width: 600px; height: 800px; background: #231F20"></canvas>
     <script src="Build/Telegram-Game-Demo.loader.js"></script>
     <script>
-      const canvas = document.querySelector("#unity-canvas");
+      
+      var canvas = document.querySelector("#unity-canvas");
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
-        const meta = document.createElement('meta');
+        var meta = document.createElement('meta');
         meta.name = 'viewport';
         meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
         document.getElementsByTagName('head')[0].appendChild(meta);
@@ -24,10 +25,11 @@
 
         document.body.style.textAlign = "left";
       }
-      
+
       else {
-        canvas.width = "560px";
-        canvas.height = "548px"; 
+        // For non-mobile devices, set the resolution to 560px by 548px:
+        canvas.style.width = "560px";
+        canvas.style.height = "548px";
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
