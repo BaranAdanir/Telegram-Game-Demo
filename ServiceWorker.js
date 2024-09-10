@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Fexobit-0.1";
 const contentToCache = [
     "Build/Telegram-Game-Demo.loader.js",
-    "Build/Telegram-Game-Demo.framework.js",
-    "Build/Telegram-Game-Demo.data",
-    "Build/Telegram-Game-Demo.wasm",
+    "Build/Telegram-Game-Demo.framework.js.unityweb",
+    "Build/Telegram-Game-Demo.data.unityweb",
+    "Build/Telegram-Game-Demo.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
