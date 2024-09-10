@@ -9,9 +9,8 @@
     <canvas id="unity-canvas" width=600 height=800 tabindex="-1" style="width: 600px; height: 800px; background: #231F20"></canvas>
     <script src="Build/Telegram-Game-Demo.loader.js"></script>
     <script>
-      
       var canvas = document.querySelector("#unity-canvas");
-
+      
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
         var meta = document.createElement('meta');
@@ -25,7 +24,7 @@
 
         document.body.style.textAlign = "left";
       }
-
+      
       else {
         // For non-mobile devices, set the resolution to 560px by 548px:
         canvas.style.width = "560px";
@@ -33,9 +32,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Telegram-Game-Demo.data",
-        frameworkUrl: "Build/Telegram-Game-Demo.framework.js",
-        codeUrl: "Build/Telegram-Game-Demo.wasm",
+        dataUrl: "Build/Telegram-Game-Demo.data.br",
+        frameworkUrl: "Build/Telegram-Game-Demo.framework.js.br",
+        codeUrl: "Build/Telegram-Game-Demo.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Fexobit",
