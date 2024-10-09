@@ -17,7 +17,7 @@ body { padding: 0; margin: 0 }
 #description{position: absolute; left: 50%; top: 90%; transform: translate(-50%, -50%); color: white; font-size: 20px; font-family: "Thicccboi"}
 @font-face {
     font-family: 'Thicccboi';
-    src: url('fonts/thicccboi-font/THICCCBOI-Medium.ttf') format('truetype');
-    font-weight: bold;
+    src: url('fonts/thicccboi-font/THICCCBOI-Bold.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
