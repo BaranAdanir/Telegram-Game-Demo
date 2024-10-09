@@ -18,6 +18,6 @@ body { padding: 0; margin: 0 }
 @font-face {
     font-family: 'Thicccboi';
     src: url('fonts/thicccboi-font/THICCCBOI-Medium.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
