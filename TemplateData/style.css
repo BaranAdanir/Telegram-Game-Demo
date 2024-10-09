@@ -16,5 +16,5 @@ body { padding: 0; margin: 0 }
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
 #unity-footer p {
     text-align: center;
-    color: #000;
+    color: white;
 }
